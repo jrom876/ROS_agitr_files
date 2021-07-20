@@ -2,9 +2,9 @@
 
 # File Name:		ros.sh
 # Written by:		Jacob Romero
-#					Creative Engineering Solutions, LLC
-# Contact:			cesllc876@gmail.com
-#					admin@jrom.io
+#			Creative Engineering Solutions, LLC
+# Contact:		cesllc876@gmail.com
+#			admin@jrom.io
 # Github Page:		www.github.com/jrom876
 #
 ################################
@@ -127,7 +127,7 @@ rosparam list'; echo
 ###############
 
 alias romove='cd ~/ros/src/emacs; \
-				ls -la'
+	ls -la'
 
 function rocmake () {
 	cd ~/ros/src/emacs;
@@ -147,7 +147,7 @@ function rolaunch () {
 ######################################
 
 #~ alias r1move='cd ~/rmac/src/emacs; \
-				#~ ls -la'
+	#~ ls -la'
 
 #~ function r1cmake () {
 	#~ cd ~/rmac/src/emacs;
@@ -160,7 +160,7 @@ function rolaunch () {
 #~ }
 
 #~ alias r2move='cd ~/rmac/src/rmacs; \
-				#~ ls -la'
+	#~ ls -la'
 
 #~ function r2cmake () {
 	#~ cd ~/rmac/src/rmacs;
@@ -177,8 +177,6 @@ function rolaunch () {
 #~ /ros , but you can name your workspace whatever you like, and store the directory any-
 #~ where in your account that you prefer. Use the normal mkdir command to create a direc-
 #~ tory. We’ll refer to this new directory as your workspace directory.
-
-
 
 		#~ rospack list
 		#~ rospack find package-name (eg: rospack find turtle)
