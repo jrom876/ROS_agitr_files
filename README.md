@@ -1,6 +1,8 @@
 # ROS_agitr_files
 
-This repo contains all .cpp, .launch, CMake.txt, and .xml files which I created in " A Gentle Introduction to ROS" using ROS melodic.
+This repo contains all .cpp, .launch, CMake.txt, and .xml files which I created in "A Gentle Introduction to ROS" using ROS melodic.
+
+Several obligatory .pdf files are included including "A Gentle Introduction to ROS."
 
 Also included is a bash file (ros.sh) with custom scripts which I use to create such useful things as a 
 Table of Contents, functions, and aliases for accessing and editing ROS files.
