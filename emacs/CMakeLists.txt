@@ -13,7 +13,6 @@ find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs turtlesim)
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
-
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
 ## See http://ros.org/doc/api/catkin/html/user_guide/setup_dot_py.html
@@ -141,7 +140,6 @@ add_executable(set_bg_color set_bg_color.cpp)
 add_executable(spawn_turtle spawn_turtle.cpp)
 add_executable(pubvel_toggle pubvel_toggle.cpp)
 
-
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -165,7 +163,6 @@ target_link_libraries(reverse_cmd_vel ${catkin_LIBRARIES})
 target_link_libraries(set_bg_color ${catkin_LIBRARIES})
 target_link_libraries(spawn_turtle ${catkin_LIBRARIES})
 target_link_libraries(pubvel_toggle ${catkin_LIBRARIES})
-
 
 #############
 ## Install ##
