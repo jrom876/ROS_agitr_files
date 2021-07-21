@@ -146,38 +146,6 @@ function rolaunch () {
 
 ######################################
 
-#~ alias r1move='cd ~/rmac/src/emacs; \
-	#~ ls -la'
-
-#~ function r1cmake () {
-	#~ cd ~/rmac/src/emacs;
-	#~ nano CMakeLists.txt;
-#~ }
-
-#~ function r1pkg () {
-	#~ cd ~/rmac/src/emacs;
-	#~ nano package.xml;
-#~ }
-
-#~ alias r2move='cd ~/rmac/src/rmacs; \
-	#~ ls -la'
-
-#~ function r2cmake () {
-	#~ cd ~/rmac/src/rmacs;
-	#~ nano CMakeLists.txt;
-#~ }
-
-#~ function r2pkg () {
-	#~ cd ~/rmac/src/rmacs;
-	#~ nano package.xml;
-#~ }
-
-#~ Packages that you create should live together in a directory called
-#~ a workspace. For example, the author’s workspace is a directory called /home/jokane-
-#~ /ros , but you can name your workspace whatever you like, and store the directory any-
-#~ where in your account that you prefer. Use the normal mkdir command to create a direc-
-#~ tory. We’ll refer to this new directory as your workspace directory.
-
 		#~ rospack list
 		#~ rospack find package-name (eg: rospack find turtle)
 		#~ rosls package-name
@@ -185,7 +153,6 @@ function rolaunch () {
 
 #~ 		roscore
 #~ 		rosrun package-name executable-name
-
 
 #~ 		roscore
 #~ 		rosrun turtlesim turtlesim_node
@@ -257,10 +224,7 @@ function rolaunch () {
 #~ 		catkin_make
 #~ 		source devel/setup.bash
 #~ 		rosrun emacs hello
-
-
 #######################################
 ####### Construction Zone Pylon #######
-
 ####### End of Construction Zone Pylon #######
 ##############################################
