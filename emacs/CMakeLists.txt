@@ -48,31 +48,26 @@ find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs turtlesim)
 #   Message1.msg
 #   Message2.msg
 # )
-
 ## Generate services in the 'srv' folder
 # add_service_files(
 #   FILES
 #   Service1.srv
 #   Service2.srv
 # )
-
 ## Generate actions in the 'action' folder
 # add_action_files(
 #   FILES
 #   Action1.action
 #   Action2.action
 # )
-
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
 #   std_msgs  # Or other packages containing msgs
 # )
-
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
 ################################################
-
 ## To declare and build dynamic reconfigure parameters within this
 ## package, follow these steps:
 ## * In the file package.xml:
@@ -88,7 +83,6 @@ find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs turtlesim)
 #   cfg/DynReconf1.cfg
 #   cfg/DynReconf2.cfg
 # )
-
 ###################################
 ## catkin specific configuration ##
 ###################################
@@ -104,23 +98,19 @@ catkin_package(
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
-
 ###########
 ## Build ##
 ###########
-
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
  include
  ${catkin_INCLUDE_DIRS}
 )
-
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/emacs.cpp
 # )
-
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
@@ -167,7 +157,6 @@ target_link_libraries(pubvel_toggle ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############
-
 # all install targets should use catkin DESTINATION variables
 # See http://ros.org/doc/api/catkin/html/adv_user_guide/variables.html
 
@@ -177,13 +166,11 @@ target_link_libraries(pubvel_toggle ${catkin_LIBRARIES})
 #   scripts/my_python_script
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
-
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
 # install(TARGETS ${PROJECT_NAME}_node
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
-
 ## Mark libraries for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_libraries.html
 # install(TARGETS ${PROJECT_NAME}
@@ -191,14 +178,12 @@ target_link_libraries(pubvel_toggle ${catkin_LIBRARIES})
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
 # )
-
 ## Mark cpp header files for installation
 # install(DIRECTORY include/${PROJECT_NAME}/
 #   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 #   FILES_MATCHING PATTERN "*.h"
 #   PATTERN ".svn" EXCLUDE
 # )
-
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 # install(FILES
 #   # myfile1
@@ -209,7 +194,6 @@ target_link_libraries(pubvel_toggle ${catkin_LIBRARIES})
 #############
 ## Testing ##
 #############
-
 ## Add gtest based cpp test target and link libraries
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_emacs.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
