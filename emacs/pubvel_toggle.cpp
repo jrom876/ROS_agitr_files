@@ -17,10 +17,8 @@ bool toggleForward (
 int main (int argc, char **argv) {
 	ros::init (argc, argv, "pubvel_toggle");
 	ros::NodeHandle nh;
-	ros::ServiceServer server = nh.advertiseService (
-	"toggle_forward", &toggleForward);
-	ros::Publisher pub = nh.advertise<geometry_msgs::Twist >(
-	"turtle1/cmd_vel", 1000);
+	ros::ServiceServer server = nh.advertiseService ("toggle_forward", &toggleForward);
+	ros::Publisher pub = nh.advertise<geometry_msgs::Twist >("turtle1/cmd_vel", 1000);
 	ros::Rate rate(2);
 	while (ros::ok()){
 		geometry_msgs::Twist msg;
